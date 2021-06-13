@@ -1,4 +1,4 @@
-To successfuly test this project please follow the following procedures
+To successfuly test this Nodejs project, first downlaod it to your computer and then please follow the following procedures
 
 1. import the database called "BANK" to your MySQL Workbench
     * please rememeber that username , password, and port number of your database are as follows
