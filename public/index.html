@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./scripts/jquery-3.6.0.js"></script>
+    <script src="./scripts/main.js"></script>
+    <title>Bank Website</title>
+</head>
+
+<body>
+    <header>
+        <h1>welcome to our bank</h1>
+    </header>
+
+    <form action="#" id="formId">
+        <fieldset>
+            <legend>
+                Savings Account Information
+            </legend>
+            <label>Name: <input type="text" name="name" id="username"></label>
+            <label>Account Number: <input type="text" name="number" id="number"></label>
+            <label>Amount: <input type="text" name="balance" id="balance"></label>
+            
+            <label> Operations: 
+                <select name="operation" id="selectId">
+                    <option>deposit</option>
+                    <option>withdraw</option>
+                    <option>balance</option>
+                    <option>new</option>
+                </select>
+            </label>
+
+            <br>
+            <input type="submit" value="Execute Operation">
+            <input type="reset" value="Clear">
+            <p id="accountStatus"></p>
+            <label id="customerInfoContainer">Customer Info <textarea  id="customerInfo" cols="50" rows="10"></textarea></label>
+        </fieldset>
+    </form>
+</body>
+
+</html>

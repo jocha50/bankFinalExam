@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+header{
+    width: 100%;
+    background-color: rgb(4, 4, 116);
+    color: white;
+    height: 100px;
+}
+header h1{
+    width: fit-content;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+form{
+    margin-top: 50px;
+}
+fieldset{
+    border: 2px solid gray;
+    width: 40%;
+    height: fit-content;
+    margin: 0 auto;
+}
+fieldset label{
+    display: block;
+    margin: 20px;
+}
+#formId label input[type="text"]{
+    float: right;
+    margin-right: 30%;
+}
+fieldset input[type="submit"]{
+   margin-left:150px;
+}
+#customerInfo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+#customerInfoContainer{
+    display: none;
+}
